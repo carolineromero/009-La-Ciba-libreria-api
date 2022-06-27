@@ -1,0 +1,50 @@
+{ 
+    "books": [{
+        "id": 1,
+        "bookname": "La urgencia de vivir",
+        "year": 2018,
+        "author":"Teresa Langle de Paz",
+        "image": "https://imagessl3.casadellibro.com/a/l/t7/13/9788417556013.jpg",
+        "genere":"Politicas de igualdad",
+        "editorial":"Anthropos",
+        "ISBN":9788417556013
+    },
+    
+       {
+    "id": 2,
+    "bookname": "El feminismo en mi vida",
+    "year": 2012,
+    "author":"Marcela Lagarde y de los Ríos",
+    "image": "https://imagessl3.casadellibro.com/a/l/t7/13/9788417556013.jpg",
+    "genere":"Politicas de igualdad",
+    "editorial":"horas y Horas la editorial",
+    "ISBN":9788496004597
+       
+ },
+
+
+ {
+    "id": 3,
+    "bookname": "Mas que una musa",
+    "year": 2021,
+    "author":"Katie McCabe",
+    "image": "https://imagessl3.casadellibro.com/a/l/t7/13/9788417556013.jpg",
+    "genere":"Cultura",
+    "editorial":"Garbuix books",
+    "ISBN":9788412332612
+       
+ },
+
+ {
+    "id": 4,
+    "bookname": "Leia Rihanna y Trump",
+    "year": 2019,
+    "author":"Proyecto una",
+    "image": "https://imagessl3.casadellibro.com/a/l/t7/13/9788417556013.jpg",
+    "genere":"Cultura",
+    "editorial":"Descontrol",
+    "ISBN":9788417190699
+       
+     }
+   ]
+}
