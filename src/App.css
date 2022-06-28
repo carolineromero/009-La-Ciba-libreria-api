@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+.headerContainer{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  max-width: 800px;
+  background: #CDE7EA;
+  margin-inline-start: 120px;
+ 
+}
+
+.logo-libr{
+  height: 200px;
+  display: flex;
+ 
+}
+
+.bar-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.headerLine ul{
+  width: 100%;
+ display: flex;
+ justify-content: flex-end;
+ align-items: flex-end;
+ flex-direction: row;
+ list-style: none;
+ cursor: pointer;
+}
+

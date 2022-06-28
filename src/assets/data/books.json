@@ -1,0 +1,48 @@
+{ 
+    "books": [
+      {
+        "id": 1,
+        "bookName": "La urgencia de vivir",
+        "year": 2018,
+        "author":"Teresa Langle de Paz",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51VcsJzF1KL.jpg",
+        "genre":"Politicas de igualdad",
+        "editorial":"Anthropos",
+        "ISBN":9788417556013
+      },
+    
+      {
+         "id": 2,
+         "bookName": "El feminismo en mi vida",
+         "year": 2012,
+         "author":"Marcela Lagarde y de los Ríos",
+         "image": "https://images-na.ssl-images-amazon.com/images/I/71F1-+0jAyL.jpg",
+         "genre":"Politicas de igualdad",
+         "editorial":"horas y Horas la editorial",
+         "ISBN":9788496004597 
+      },
+
+
+      {
+         "id": 3,
+         "bookName": "Mas que una musa",
+         "year": 2021,
+         "author":"Katie McCabe",
+         "image": "https://garbuixbooks.com/wp-content/uploads/2021/03/9788412332612-scaled.jpg",
+         "genre":"Cultura",
+         "editorial":"Garbuix books",
+         "ISBN":9788412332612    
+      },
+
+      {
+         "id": 4,
+         "bookName": "Leia Rihanna y Trump",
+         "year": 2019,
+         "author":"Proyecto una",
+         "image": "https://descontrol.cat/wp-content/uploads/2019/07/Captura-de-Pantalla-2020-06-17-a-les-16.29.42-699x1024.png",
+         "genre":"Cultura",
+         "editorial":"Descontrol",
+         "ISBN":9788417190699
+      }
+   ]
+}
