@@ -4,6 +4,7 @@ import Router from './aplication/Router';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import '../src/styles/styleHome.css';
+import '../src/styles/stylesBooksPage.css';
 
 const container = document.getElementById('root');
 const root = createRoot(container);

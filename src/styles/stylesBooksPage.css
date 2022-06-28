@@ -1,0 +1,50 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0
+}
+
+.headerContainer{
+    background: #96CDD2;
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.logo-libr{
+    width: 400px;
+}
+
+.headerLine li{
+    list-style: none;
+    justify-content: end;
+    display: inline;
+    padding: 15px;
+    color: white;
+    font-size: x-large;
+}
+
+.headerLine li:hover{
+    background: rgba(255, 67, 82, 0.48);
+    border-radius: 50px;
+  
+}
+
+.headerLine{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 15px;
+}
+
+.bar-text{
+    position: absolute;
+    top: 60px;
+    font-size: 210%;
+    color: white;
+    align-items: center;
+    margin-right: 55px;
+}
