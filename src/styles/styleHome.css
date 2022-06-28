@@ -1,0 +1,14 @@
+.homeContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 50px;
+  }
+  
+  
+  
+  .logo-librosHome{
+    display: flex;
+    width: 700px;
+  }
+  
