@@ -41,4 +41,5 @@
   background-color:#96CDD2;
   display: flex;
   justify-content: space-between;
+  position: absolute;
 }
