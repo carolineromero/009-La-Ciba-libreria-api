@@ -1,13 +1,10 @@
-import React from 'react'
+function CardBook ({bookName, author, year, genre, image, editorial}) {
+    return (
 
-function ItemBook() {
-  return (
-  <>
-
- <div className='itemBooksContainer'>
+<div className='itemBooksContainer'>
       <div className='itemBookSquare'>
           <div className='marcoBookImg'>
-              <img className='bookCover' src="https://descontrol.cat/wp-content/uploads/2019/07/Captura-de-Pantalla-2020-06-17-a-les-16.29.42-699x1024.png" alt="Portada libro" />
+              <img className='bookCover' src={image} />
           </div>
       <div className="containerInferior">
       <div className='iconContainer'>
@@ -23,19 +20,15 @@ function ItemBook() {
       </div>
       </div>
       <div className="titleBook">
-          <p className="title">Título libro</p>
-          <p className="author">Autor</p>
-          <p className="year">Año</p>
+          <p className="title">{bookName}</p>
+          <p className="author">{author}</p>
+          <p className="year">{year}</p>
       </div>
   </div>
  
 </div>
 
-
-
-
-  </>
-  )
+    );
 }
 
-export default ItemBook
+export default CardBook;

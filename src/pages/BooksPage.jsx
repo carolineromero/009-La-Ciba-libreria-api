@@ -1,12 +1,11 @@
 import React from 'react'
 import Header from '../components/Header'
-import ItemBook from '../components/ItemBook'
-
+import CardsList from '../components/CardsList'
 function BooksPage(){
   return (
     <>
     <Header/>
-    <ItemBook/>
+    <CardsList/>
     </>
   )
 }

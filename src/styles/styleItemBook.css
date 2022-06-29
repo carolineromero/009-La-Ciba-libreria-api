@@ -8,6 +8,7 @@
     padding-top: 2%;
     padding-left: 5%;
     padding-right: 5%;
+    
 }
 
 .itemBookSquare{
@@ -97,3 +98,7 @@
     flex-direction: column;
 }
 
+.list-books{
+    display: flex;
+    flex-wrap: wrap;
+}
