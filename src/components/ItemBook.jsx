@@ -1,5 +1,8 @@
 import React from 'react'
 
+
+
+
 function ItemBook() {
   return (
   <>
@@ -9,20 +12,21 @@ function ItemBook() {
       <img className='bookCover' src="https://descontrol.cat/wp-content/uploads/2019/07/Captura-de-Pantalla-2020-06-17-a-les-16.29.42-699x1024.png" alt="Portada libro" />
       </div>
     </div>    
-      </div>
-      {/* 
+      
+       <div className="containerInferior">
       <div className='iconContainer'>
           <div className='iconContainerLeft'>
-              <FontAwesomeIcon icon="fa-solid fa-heart" />
-              <FontAwesomeIcon icon="fa-solid fa-star" />
-              <FontAwesomeIcon icon="fa-solid fa-eye" />
+              <i class="fa-solid fa-star"></i>
+              <i className="fa-solid fa-heart"></i>
+              <i class="fa-solid fa-eye"></i>
+
           </div>
           <div className='iconContainerRight'>
-                <FontAwesomeIcon icon="fa-solid fa-pen-to-square" />
-                <FontAwesomeIcon icon="fa-solid fa-trash" />
+              <i class="fa-solid fa-pen-to-square"></i>
+              <i class="fa-solid fa-trash-can"></i>
           </div>
       </div>
-      */}
+      
   
      <div className='itemBookText'>
         <div className="titleBook">
@@ -30,12 +34,9 @@ function ItemBook() {
           <p className="author">Autor</p>
           <p className="year">Año</p>
         </div>
-        
       </div>
-   
-
-
-
+    </div>
+    </div>
    
 
   </>
