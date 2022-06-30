@@ -4,14 +4,14 @@ function CardBook ({bookName, author, year, genre, image, editorial}) {
 <div className='itemBooksContainer'>
       <div className='itemBookSquare'>
           <div className='marcoBookImg'>
-              <img className='bookCover' src={image} />
+              <img className='bookCover' src={image}/>
           </div>
       <div className="containerInferior">
       <div className='iconContainer'>
             <div className='iconContainerLeft'>
                 <i class="fa-solid fa-star"></i>
                 <i className="fa-solid fa-heart"></i>
-                <i class="fa-solid fa-eye"></i>
+                <a className="fa-solid fa-eye" href="../src/pages/DetailsBook.jsx"></a>
            </div>
             <div className='iconContainerRight'>
                 <i class="fa-solid fa-pen-to-square"></i>
