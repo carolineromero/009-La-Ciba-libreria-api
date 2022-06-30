@@ -5,7 +5,7 @@ import '../styles/styleItemBook.css'
 export default function ListCards() {
     const bookList = bookfile.books.map (item => { 
         return (
-            <CardBook bookname={item.bookName} author={item.author} genre={item.genre} year={item.year} editorial={item.editorial} image={item.image}/>
+            <CardBook bookName={item.bookName} author={item.author} genre={item.genre} year={item.year} editorial={item.editorial} image={item.image}/>
         )
     })
     return (

@@ -46,6 +46,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 1.2rem;
+    color: rgb(69, 17, 17);
     
 }
   
@@ -72,7 +73,7 @@
 
 
 .fa-solid{
-    color: rgb(130, 130, 130) ;
+    color: rgb(255, 253, 253) ;
     
 }
 

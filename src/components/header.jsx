@@ -10,9 +10,13 @@ function Header() {
         <nav className='headerLine'>
         <h1 className='bar-text'>¡Empodérate leyendo!</h1>
             <ul>
-                <li class="bar-menu-btn">Home</li>
-                <li class="bar-menu-btn">Create</li>
-                <li class="bar-menu-btn">Registration</li>
+            <li class="var-menu-btn">
+                <a className="nav-link" href="/">Home</a>
+                </li>
+                <li class="var-menu-btn">
+                <a className="nav-link" href="/newBook">Create</a>
+                </li>
+                <li class="var-menu-btn">Registration</li>
             </ul>
            
             </nav>

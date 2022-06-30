@@ -43,6 +43,61 @@
          "genre":"Cultura",
          "editorial":"Descontrol",
          "ISBN":9788417190699
+      },
+
+      {
+         "id": 5,
+         "bookName": "Feminismo para principiantes",
+         "year": 2019,
+         "author":"Nuria Varela",
+         "image": "https://images-na.ssl-images-amazon.com/images/I/819SKuVK7bL.jpg",
+         "genre":"Cultura",
+         "editorial":"B",
+         "ISBN":9788466663649
+      },
+
+      {
+         "id": 6,
+         "bookName": "Antologia feminista",
+         "year": 2022,
+         "author":"Lastesis",
+         "image": "https://imagessl9.casadellibro.com/a/l/t7/89/9788418619489.jpg",
+         "genre":"Ciencias Políticas y Sociales",
+         "editorial":"Debate",
+         "ISBN":9788418619489
+      },
+
+      {
+         "id": 7,
+         "bookName": "El pequeño libro de las grandes feministas",
+         "year": 2022,
+         "author":"Manjut Thapp",
+         "image": "https://images-na.ssl-images-amazon.com/images/I/41HF6ShLC7L._SX319_BO1,204,203,200_.jpg",
+         "genre":"Historia social y cultural",
+         "editorial":"Grijalbo",
+         "ISBN":9786073181891
+      },
+
+      {
+         "id": 8,
+         "bookName": "Malas Mujeres",
+         "year": 2022,
+         "author":"Maria Hesse",
+         "image": "https://images-na.ssl-images-amazon.com/images/I/51pbtuFwpPL._SX350_BO1,204,203,200_.jpg",
+         "genre":"Biografías",
+         "editorial":"Lumen",
+         "ISBN":9788426409690
+      },
+
+      {
+         "id": 9,
+         "bookName": "No es país para coños",
+         "year": 2019,
+         "author":"Diana López Varela",
+         "image": "https://www.clara.es/medio/2019/02/15/libros-feministas-no-es-pais-para-conos_8907cdd0_1000x1500.jpg",
+         "genre":"Sociedad y cultura",
+         "editorial":"Booket",
+         "ISBN":9788499427737
       }
    ]
 }
