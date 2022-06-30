@@ -21,7 +21,8 @@
     max-width: 950px;
     width: 100%;
     margin: auto;
-}
+    padding-top: 40px;
+  }
 
 .logo-libr{
     width: 400px;
@@ -35,18 +36,15 @@
     color: white;
     font-size: x-large;
 }
-.headerLine li{
-    color: white;
-}
-
 
 .headerLine li:hover{
     background: rgba(255, 67, 82, 0.48);
     border-radius: 50px;
-  
 }
-.var-menu-btn .nav-link.active{
-    color: white !important;
+
+.headerLine li a{
+    color:white;
+    text-decoration: none;
 }
 
 .headerLine{
@@ -54,8 +52,6 @@
     align-items: flex-end;
     margin-bottom: 15px;
 }
-
-
 
 .bar-text{
     position: absolute;
