@@ -5,9 +5,8 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import '../src/styles/styleHome.css';
 import '../src/styles/stylesBooksPage.css';
+import '../src/styles/styleDetailsBook.css';
 import '../src/styles/styleItemBook.css';
-
-
 
 const container = document.getElementById('root');
 const root = createRoot(container);

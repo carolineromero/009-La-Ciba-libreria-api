@@ -11,7 +11,7 @@ function CardBook ({bookName, author, year, genre, image, editorial}) {
             <div className='iconContainerLeft'>
                 <i class="fa-solid fa-star"></i>
                 <i className="fa-solid fa-heart"></i>
-                <a className="fa-solid fa-eye" href="../src/pages/DetailsBook.jsx"></a>
+                <a className="fa-solid fa-eye" href="./detailsbook"></a>
            </div>
             <div className='iconContainerRight'>
                 <i class="fa-solid fa-pen-to-square"></i>

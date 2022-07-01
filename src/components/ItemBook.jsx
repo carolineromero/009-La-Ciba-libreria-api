@@ -30,10 +30,6 @@ function ItemBook() {
   </div>
  
 </div>
-
-
-
-
   </>
   )
 }

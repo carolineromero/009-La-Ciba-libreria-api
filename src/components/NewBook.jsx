@@ -1,9 +1,6 @@
 function Newbook(){
 
-
 return(
-
-
 <>
 <div className="containerCreate">
     <div className="containerTitleForm">

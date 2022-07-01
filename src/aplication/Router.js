@@ -11,9 +11,8 @@ function Router() {
         <Routes>
             <Route path='/' element={<App/>}/>
             <Route path='/books' element={<BooksPage/>}/>
-            <Route path='/detailsBooks' element={<DetailsBook/>}/>
+            <Route path='/detailsbook' element={<DetailsBook/>}/>
             <Route path='/newBook' element={<NewBook/>} />
-          
         </Routes>
     </BrowserRouter>
   )
