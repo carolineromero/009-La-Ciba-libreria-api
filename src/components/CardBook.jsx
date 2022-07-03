@@ -4,7 +4,7 @@ function CardBook ({bookName, author, year, genre, image, editorial}) {
 <div className='itemBooksContainer'>
       <div className='itemBookSquare'>
           <div className='marcoBookImg'>
-              <img className='bookCover' src={image}/>
+              <img className='bookCover' src={image} alt ='imageBook'/>
           </div>
       <div className="containerInferior">
       <div className='iconContainer'>
