@@ -13,8 +13,6 @@ function Router() {
             <Route path='/books' element={<BooksPage/>}/>
             <Route path='/detailsbook' element={<DetailsBook/>}/>
             <Route path='/newBook' element={<NewBook/>} />
-  
-          
         </Routes>
     </BrowserRouter>
   )

@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.Container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+   
+}
+
+.square{
+    background: #96CDD2;
+    border-top: 20px; 
+    display: flex;
+    width: 100%;
+}
+
+.bookImg{
+    display: flex;   
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+}
