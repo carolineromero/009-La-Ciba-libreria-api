@@ -3,39 +3,101 @@
     padding: 0;
     margin: 0;
 }
-
-
-.container{
+.containerTitleDetail{
+    background: #96CDD2;
+    max-width: 500px;
+    height: 60px;
+    width: 100%;
     display: flex;
+    align-items: flex-end;
+    margin: 0 auto;
+    display: block;
+   
+    border-radius: 40px 40px 0px 0px;    
+}
+
+.containerDetail{
+    background: #cee9ec;
+    justify-content: space-between;
+    max-width: 950px;
+    height: 500px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 40px 40px 0px 0px;        
+}
+
+.formText{
+    display: flex;
+    justify-content: end;
+}
+.titleForm{
+    display:flex ;
+    justify-content:start ;
+}
+.containerTitleDetail{
+    background: #96CDD2;
+    max-width: 650px;
+    height: 60px;
+    width: 100%;
+    border-radius: 40px 40px 0px 0px;
+    margin:0;
+        
+}
+
+
+.imgTxt{
+    display: flex;
+    justify-content: space-between;
+    gap: 2%;
+}
+
+.imgTextDetail{
+margin: 4%;
+}
+
+.containerBtnClose{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.btnClose{
+    background: #fbffff;
+    border-radius: 12px;
+    padding: 10px;
+    border:none;
+    
+    
+}
+
+.btnClose:hover {
+    background-color: #96CDD2;
+    ;
+    color: white;
+ 
+}
+
+.marcoBookImgDetail{
+    width: 200px;
+    height: 350px;
+    border-radius: 30px 30px 30px 30px;
+    overflow:hidden; 
     position: relative;
 }
 
-.square{
-    background: #EDF7F8;
-    border-radius: 40px; 
-    margin: auto;
-    max-width: 950px;
-    width: 100%;
+.bookCoverDetail{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    bottom: 0%;
 }
 
-.coverBook{
-    display: flex;   
-    border-radius: 40px 0px 0px 40px; 
-}
-
-.titleBook{
-    background: #96CDD2;
-    color: rgb(69, 17, 17);
+.textDescription{
+    color:gray;
+    margin: 30px 15px 20px;
     display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
+    justify-content: center;
+    font-size: medium;
 }
 
-
-
-.Lore{
-    background:#EDF7F8;
-    color: black;
-
-}
