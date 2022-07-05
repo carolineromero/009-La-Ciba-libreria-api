@@ -98,17 +98,6 @@
       "editorial": "Booket",
       "ISBN": 9788499427737,
       "description": "Lore Ipsum li"
-    },
-    {
-      "id": 10,
-      "bookName": "Un cuento de empoderadas IDIOTIZADAS ",
-      "year": 2017,
-      "author": "Moderna de pueblo",
-      "image": "https://images-na.ssl-images-amazon.com/images/I/51g7sS6-GpL._SX371_BO1,204,203,200_.jpg",
-      "genre": "Estudios de género",
-      "editorial": "Zenith",
-      "ISBN": 9788408176886,
-      "description": "Lore Ipsum"
     }
   ]
 }

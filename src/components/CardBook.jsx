@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom"
+
 function CardBook ({bookName, author, year, genre, image, editorial}) {
     return (
 
@@ -9,13 +11,13 @@ function CardBook ({bookName, author, year, genre, image, editorial}) {
       <div className="containerInferior">
       <div className='iconContainer'>
             <div className='iconContainerLeft'>
-                <i class="fa-solid fa-star"></i>
+                <i className="fa-solid fa-star"></i>
                 <i className="fa-solid fa-heart"></i>
-                <a className="fa-solid fa-eye" href="./detailsbook"></a>
+                <Link to= "/detailsbook"className="fa-solid fa-eye"></Link>
            </div>
             <div className='iconContainerRight'>
-                <i class="fa-solid fa-pen-to-square"></i>
-                <i class="fa-solid fa-trash-can"></i>
+                <i className="fa-solid fa-pen-to-square"></i>
+                <i className="fa-solid fa-trash-can"></i>
             </div>
       </div>
       </div>

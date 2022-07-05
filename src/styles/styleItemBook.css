@@ -68,12 +68,14 @@
     
 }
 
-
 .fa-solid{
     color: rgb(255, 253, 253) ;
     
 }
+.fa-solid fa-eye{
+    color: #ffffff;
 
+}
 
 .iconContainer{
     display: flex;

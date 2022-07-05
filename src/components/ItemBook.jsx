@@ -12,13 +12,13 @@ function ItemBook() {
       <div className="containerInferior">
       <div className='iconContainer'>
             <div className='iconContainerLeft'>
-                <i class="fa-solid fa-star"></i>
+                <i className="fa-solid fa-star"></i>
                 <i className="fa-solid fa-heart"></i>
                 <i class="fa-solid fa-eye"></i>
            </div>
             <div className='iconContainerRight'>
-                <i class="fa-solid fa-pen-to-square"></i>
-                <i class="fa-solid fa-trash-can"></i>
+                <i className="fa-solid fa-pen-to-square"></i>
+                <i className="fa-solid fa-trash-can"></i>
             </div>
       </div>
       </div>
