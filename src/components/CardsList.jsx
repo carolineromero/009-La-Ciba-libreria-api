@@ -2,8 +2,7 @@ import CardBook from "./CardBook";
 import bookfile from "../assets/data/books.json";
 import '../styles/styleItemBook.css'
 
-export default function ListCards() {
-  
+export default function CardsList() {
     return (
         <main className="list-books">
            {

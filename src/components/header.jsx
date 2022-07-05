@@ -13,12 +13,11 @@ function Header() {
             <li class="var-menu-btn">
                 <a className="nav-link" href="/">Home</a>
                 </li>
-                <li class="var-menu-btn">
+                <li className="var-menu-btn">
                 <a className="nav-link" href="/newBook">Create</a>
                 </li>
-                <li class="var-menu-btn">Registration</li>
+                <li className="var-menu-btn">Registration</li>
             </ul>
-           
             </nav>
         </div>
     </div>
