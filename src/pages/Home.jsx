@@ -8,7 +8,7 @@ function Home() {
     <>
    <div className='homeContainer'>
     <img src={logoLibrary} alt="logo library" className='logo-librosHome' />
-    <Link to = '/books'><button className='btn-enter'>ENTRAR</button></Link>
+    <Link to = '/bookspage'><button className='btn-enter'>ENTRAR</button></Link>
    </div>
    </>
   )

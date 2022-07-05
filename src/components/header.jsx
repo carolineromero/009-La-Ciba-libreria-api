@@ -13,7 +13,7 @@ function Header() {
         <div className="containerMenu"></div>
             <ul>
             <li class="var-menu-btn">
-                <a className="nav-link" href="/">Home</a>
+                <a className="nav-link" href="/bookspage">Home</a>
                 </li>
                 <li className="var-menu-btn">
                 <a className="nav-link" href="/newBook">Create</a>
