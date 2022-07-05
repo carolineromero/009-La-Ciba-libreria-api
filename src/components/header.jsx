@@ -1,28 +1,32 @@
 import React from 'react'
 import logoLibrary from '../assets/img/logo04.png'
+import {Link} from "react-router-dom"
 
 function Header() {
   return (
-    <div>
-        <div className='headerContainer'>
-             <img src={logoLibrary} alt="logo library" className='logo-libr' />
+    <div className='headerContainer'>
+      <img src={logoLibrary} alt="logo library" className='logo-libr' />
+    <nav className='headerLine'>
+       <h1 className='bar-text'>¡Empodérate leyendo!</h1>
+   -   <ul>
+         <li class="var-menu-btn">
+           <Link to='/bookspage'className="nav-link">Home</Link>
+         </li>
+         <li className="var-menu-btn">
+           <Link to='/newBook' className="nav-link" >Create</Link>
+         </li>
         
-        <nav className='headerLine'>
-        <h1 className='bar-text'>¡Empodérate leyendo!</h1>
-            <ul>
-            <li class="var-menu-btn">
-                <a className="nav-link" href="/bookspage">Home</a>
-                </li>
-                <li className="var-menu-btn">
-                <a className="nav-link" href="/newBook">Create</a>
-                </li>
-                <li className="var-menu-btn">Registration</li>
-            </ul>
-            </nav>
+        <li class="dropdown">
+          <span>Registration</span>
+        <div class="dropdown-content">
+           <p>Sign In</p>
+           <p>LogIn</p>
         </div>
-    </div>
-    
-  )
+        </li>
+      </ul>
+    </nav>     
+</div>  
+)
 }
 
 export default Header

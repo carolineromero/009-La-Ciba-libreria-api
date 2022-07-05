@@ -70,11 +70,11 @@
 
 .fa-solid{
     color: rgb(255, 253, 253) ;
+    text-decoration: none;
     
 }
 .fa-solid fa-eye{
     color: #ffffff;
-
 }
 
 .iconContainer{

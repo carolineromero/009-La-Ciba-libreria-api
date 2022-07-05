@@ -4,38 +4,38 @@
     margin: 0;
 }
 
-
-.container{
-    display: flex;
-    position: relative;
-}
-
 .square{
-    background: #EDF7F8;
-    border-radius: 40px; 
-    margin: auto;
+    width:100%;
     max-width: 950px;
-    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    background: #EDF7F8;
+    border-radius: 40px;
+    margin: auto;   
 }
 
-.coverBook{
-    display: flex;   
+.bookImg{ 
     border-radius: 40px 0px 0px 40px; 
 }
 
-.titleBook{
+.coverBook{
+
+    display: flex;  
+    justify-content: flex-start;
+    margin: auto; 
+    border-radius: 40px 0px 0px 40px; 
+}
+.titleB{
+    width: 50%;
     background: #96CDD2;
-    color: rgb(69, 17, 17);
+    color: #FF4352;
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 100%;
+    border-radius: 0px 40px 40px 0px; 
 }
 
-
-
-.Lore{
-    background:#EDF7F8;
+.description{
     color: black;
-
+    background: #EDF7F8;
 }
