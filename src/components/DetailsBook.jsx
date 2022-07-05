@@ -1,19 +1,32 @@
 import React from 'react'
 
+
 function DetailsBook() {
   return (
- <div className='container'>
-      <div className='square'>
-          <div className='bookImg'></div>
-          <img className='coverBook' src="https://descontrol.cat/wp-content/uploads/2019/07/Captura-de-Pantalla-2020-06-17-a-les-16.29.42-699x1024.png" alt="Portada libro"/>
-         
-      <div className="titleB">  
-          <div className="titleBook">Título libro</div> 
-          <div className='description'>Lore Ipsum</div>
-      </div>   
-      </div>
-      
-  </div>
+<div className="containerDetail">
+    <div className="formText">
+    <div className="containerTitleDetail">
+            <p className="titleForm">"Título del libro"</p>
+    </div>
+    </div>
+    <div className="imgTxt">
+   
+    <div className="imgTextDetail">
+    <div className='marcoBookImgDetail'>
+              <img className='bookCoverDetail' src="https://edit.org/images/cat/portadas-libros-big-2019101610.jpg" alt ='imageBook'/>
+          </div>
+        
+        </div> 
+        <div className="textDescription">
+        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+    </div>
+        </div>
+    <div className="containerBtnClose" >
+
+            <button className="btnClose">Cerrar</button>
+
+    </div>
+</div>
   )
  }
 

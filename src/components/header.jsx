@@ -8,14 +8,13 @@ function Header() {
       <img src={logoLibrary} alt="logo library" className='logo-libr' />
     <nav className='headerLine'>
        <h1 className='bar-text'>¡Empodérate leyendo!</h1>
-   -   <ul>
+       <ul>
          <li class="var-menu-btn">
            <Link to='/bookspage'className="nav-link">Home</Link>
          </li>
          <li className="var-menu-btn">
            <Link to='/newBook' className="nav-link" >Create</Link>
          </li>
-        
         <li class="dropdown">
           <span>Registration</span>
         <div class="dropdown-content">
