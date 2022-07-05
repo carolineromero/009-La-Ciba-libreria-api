@@ -40,8 +40,12 @@
 }
 
 .headerLine li:hover{
-    background: rgba(255, 67, 82, 0.48);
-    border-radius: 50px;
+    color:#FF4352;
+  
+}
+
+.nav-link:hover{
+    color:#FF4352;
 }
 
 .headerLine li a{
