@@ -1,12 +1,13 @@
 import {Link} from "react-router-dom";
 
-function CardBook ({titol, autoria, year, genre, image, editorial}) {
+function CardBook ({titol, autoria, year, isbn, genre, image, editorial}) {
+    let imagen = "https://covers.openlibrary.org/b/isbn/"+isbn+"-M.jpg"
     return (
 
 <div className='itemBooksContainer'>
       <div className='itemBookSquare'>
           <div className='marcoBookImg'>
-              <img className='bookCover' src={image} alt ='imageBook'/>
+              <img className='bookCover' src={imagen} alt ='imageBook'/>
           </div>
       <div className="containerInferior">
       <div className='iconContainer'>
@@ -24,7 +25,8 @@ function CardBook ({titol, autoria, year, genre, image, editorial}) {
       <div className="titleBook">
           <p className="title">{titol}</p>
           <p className="author">{autoria}</p>
-          <p className="year">{year}</p>
+          <p className="">{isbn}</p>
+          
       </div>
   </div>
  
