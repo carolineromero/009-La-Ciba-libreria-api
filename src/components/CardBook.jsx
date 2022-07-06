@@ -1,4 +1,4 @@
-import {Link} from "react-router-dom"
+import {Link} from "react-router-dom";
 
 function CardBook ({bookName, author, year, genre, image, editorial}) {
     return (

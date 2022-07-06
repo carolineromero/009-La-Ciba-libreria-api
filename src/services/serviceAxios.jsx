@@ -2,7 +2,7 @@ import axios from "axios";
 
 export const serviceAxios=() =>{
 
-    const url= "https://sheetdb.io/api/v1/dqmvr2e2rl6ru"
+    const url= "https://sheetlabs.com/MELQ/catalog"
 
     const get =async()=>{
          const res= await axios.get(url);
@@ -16,7 +16,7 @@ export const serviceAxios=() =>{
 
     const destroy =async()=>{
         let urlID=`${url}/${id}`;
-        const res= await axios.delete(urlID)
+        const res= await axios.delete(url,data)
         return res;
     }
     return {

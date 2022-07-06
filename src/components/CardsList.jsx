@@ -1,15 +1,25 @@
+import React, { useEffect, useState } from 'react'
 import CardBook from "./CardBook";
-import bookfile from "../assets/data/books.json";
 import '../styles/styleItemBook.css'
 
-export default function CardsList() {
+function CardsList() {
+
+   const [booksApi, setBooksApi] = useState([]);
+    useEffect(()=>{
+       fetch("https://sheetlabs.com/MELQ/catalog")
+       .then(response=>response.json())
+       .then(data=>setBooksApi(data))
+    })
+
     return (
         <main className="list-books">
            {
-            bookfile.books.map ((item,index) =>(
-                <CardBook key={index} bookName={item.bookName} author={item.author} genre={item.genre} year={item.year} editorial={item.editorial} image={item.image}/>
+            booksApi.map ((item,index) =>(
+            <CardBook key={index} titol={item.titol} author={item.author} genre={item.genre} year={item.year} editorial={item.editorial} image={item.image}/>
             ))
            }
         </main>
     );
 }
+export default CardsList;
+
