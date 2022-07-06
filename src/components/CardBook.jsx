@@ -1,6 +1,6 @@
 import {Link} from "react-router-dom";
 
-function CardBook ({bookName, author, year, genre, image, editorial}) {
+function CardBook ({titol, autoria, year, genre, image, editorial}) {
     return (
 
 <div className='itemBooksContainer'>
@@ -22,8 +22,8 @@ function CardBook ({bookName, author, year, genre, image, editorial}) {
       </div>
       </div>
       <div className="titleBook">
-          <p className="title">{bookName}</p>
-          <p className="author">{author}</p>
+          <p className="title">{titol}</p>
+          <p className="author">{autoria}</p>
           <p className="year">{year}</p>
       </div>
   </div>
