@@ -68,6 +68,12 @@
     
 }
 
+.isbn{
+    color: rgb(86, 86, 86);
+    font-size: small;
+}
+
+
 .fa-solid{
     color: rgb(255, 253, 253) ;
     text-decoration: none;
