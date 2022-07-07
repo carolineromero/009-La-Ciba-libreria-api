@@ -1,32 +1,110 @@
-# LIBRARY APP 
+# LA CIBA - TU LIBRERIA FEMINISTA
+![logo-pizzaPlanet](./src/assets/img/logo04.png)
 
-Este proyecto es una libreria creada con React para La CIBA; un espacio de recursos para mujeres, innovación i economia feminista.[Enlace La CIBA](https://laciba.gramenet.cat/es/). 
 
-Nos encontramos que este espacio no disponia de una app para la gestión interna de la biblioteca, así que decidimos crear una app con React, con esta finalidad.
+## Tabla de Contenidos
+1. [Información General](#información-general)
+2. [Capturas de Pantalla](#capturas-de-pantalla)
+3. [Tecnologías](#tecnologías)
+4. [Instalación](#instalación)
+5. [Soporte](#soporte)
+6. [Hoja de ruta](#hoja-de-ruta)
+7. [Colaboración](#colaboración)
+8. [Autores](#autores)
+9. [FAQs](#faqs)
 
-## Pasos a seguir 
 
-Primero instalamos el paquete REACT.
+***
+## Información General
 
-Segundo añadimos la colección de componentes de navegación React Router que nos permitirá navegar entre las diferentes páginas de nuestro proyecto. 
+Es una web, de una libreria para el centro [La Ciba](https://laciba.gramenet.cat/es/) (centro de recursos para mujeres), ubicado en Santa Coloma de Gramenet, Barcelona. 
+Para ayudar en la organización de libros en stock, prestados, disponibles y no disponibles.
 
-Tercero creamos una archivo JSON llamado books con el Array de libros de la biblioteca LA CIBA, con sus correspondientes: id, título, año, autor, imagen, género, editorial y ISBN
+*Proyecto en proceso de desarrollo.*   
 
-Cuarto empezamos a crear los diferentes componentes, páginas y estilos.
+***
 
-Actualmente a fecha de 29/06/2022 este proyecto esta en proceso de creación y mejora constante.
+## Capturas de pantalla
 
-## Enlace a los diferentes recursos
+![screenshot-01](./img%20readme/captura02.png)
+***
+![Iscreenshot-02](./img%20readme/captura03.png)
 
-En estos enlaces podeis encontrar los archivos de descarga y la documentación pertinente para el uso de las diversas herramientas que hemos usado para el proyecto.
+***
+## Tecnologías
+Lista de tecnologías usadas en el desarrollo del proyecto:
+* HTML: Version HTML 5
+* CSS: Version CSS3
+* Json-Server
+* React
+* Api rest
 
-[Enlace para la descarga de React](https://es.reactjs.org/).
-[Enlace para la instalación de React Router](https://reactrouter.com/).
-[Enlace donde encontrar y decargar los iconos](https://fontawesome.com/icons).
 
-## Autoras
+***
+## Instalación
+Como instalar el repositorio:
 
-Carolina Romero
-Rosa Becerra
-Alexandra Olaya
-Susana Gil
+1. Ingresar en Visual Studio Code
+2.  Clonar el proyecto con el comando: 
+ ``` 
+git clone https://github.com/carolineromero/libreriaApi
+```
+En Visual Studio Code:
+1. Instalar [React.js](https://es.reactjs.org/)
+2. Instalar [React-router-dom](https://reactrouter.com/).
+
+***
+
+
+## Soporte
+Si tiene cualquier problema póngase en contacto con: 
+> emailEjemplo@gmail.com
+
+***
+
+## Hoja de ruta
+
+En nuestra primera entrega presentamos una librería donde se muestran todos los libros dispobibles en La Ciba.
+
+Los libros son cargados desde una api externa, donde se muestra información de cada uno de ellos.
+
+En la próxima actualización, nuestro objetivo es que tanto los funciones de *Sign In* como el de *Log In* lleven a una página de registro o de inscripción.
+
+Que los iconos de *borrar, editar, crear, "favoritos", y "me gusta"* hagan su función
+Además, de crear una opción de busqueda, de filtrado de libros y poder ver el detalle de cada uno de ellos. 
+
+
+***
+## Colaboración
+El proyecto está abierto a cualquier persona que quiera aportar ideas o sugerencias. Podéis contactar con nosotros a través de:
+
+> ejemploEmail@gmail.com
+
+***
+## Autores 
+[Carolina Romero](https://github.com/carolineromero)  
+[Susana Gil](https://github.com/gilsusana)  
+[Rosa Becerra](https://github.com/RosaaBecerra)  
+[Alexa Olaya](https://github.com/AlexaOlaya81) 
+
+
+***
+## FAQs
+
+Preguntas frecuentes:
+1. **¿Tengo problemas con React, no me deja ejecutar la página?**
+Mirar si está en el *explorador de archivos*, la carpeta *"node_modules"*. En caso de no estar, ir a la *terminal* y ejecutar el comando
+ ``` 
+npm i 
+```
+
+2. **¿Tengo problemas poder ejecutar Json-server?**
+
+Ejecutar PowerShell de windows ( o terminal en IOS) como *administrador* y ejecutar el siguiente comando: 
+ ``` 
+Get-ExecutionPolicy -list 
+```
+y una vez cargada la lista, ejecutar el siguiente comando:
+ ``` 
+Set-ExecutionPolicy RemoteSigned -Force 
+```
