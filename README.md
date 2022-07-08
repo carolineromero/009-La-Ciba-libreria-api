@@ -26,9 +26,11 @@ Para ayudar en la organización de libros en stock, prestados, disponibles y no 
 
 ## Capturas de pantalla
 
-![screenshot-01](./img%20readme/captura02.png)
+![screenshot01.png](/src/assets/img/screenshot01.png)
 ***
-![Iscreenshot-02](./img%20readme/captura03.png)
+![screenshot02.png](/src/assets/img/screenshot02.png)
+***
+![screenshot03.png](/src/assets/img/screenshot03.png)
 
 ***
 ## Tecnologías
@@ -71,7 +73,7 @@ Los libros son cargados desde una api externa, donde se muestra información de 
 En la próxima actualización, nuestro objetivo es que tanto los funciones de *Sign In* como el de *Log In* lleven a una página de registro o de inscripción.
 
 Que los iconos de *borrar, editar, crear, "favoritos", y "me gusta"* hagan su función
-Además, de crear una opción de busqueda, de filtrado de libros y poder ver el detalle de cada uno de ellos. 
+Además, de crear una opción de busqueda y de filtrado de libros, poder ver el detalle de cada uno de ellos y crear un entorno responsive. 
 
 
 ***
@@ -100,7 +102,7 @@ npm i
 
 2. **¿Tengo problemas poder ejecutar Json-server?**
 
-Ejecutar PowerShell de windows ( o terminal en IOS) como *administrador* y ejecutar el siguiente comando: 
+Ejecutar PowerShell en windows ( o terminal en IOS) como *administrador* y ejecutar el siguiente comando: 
  ``` 
 Get-ExecutionPolicy -list 
 ```
