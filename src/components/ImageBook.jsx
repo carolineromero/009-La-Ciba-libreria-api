@@ -7,7 +7,7 @@ function ImageBook ({isbn}){
         fetch(`https://openlibrary.org/isbn/${isbn}.json`)
         .then (response=>response.json())
         .then (data=>setImgBook(data))
-    }, [])
+    }, [isbn])
     if (typeof imgBook === 'object'){
         if (imgBook.covers === undefined || imgBook.covers === null){
             return(
