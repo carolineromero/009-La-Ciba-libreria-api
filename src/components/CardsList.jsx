@@ -8,10 +8,11 @@ function CardsList() {
 
    const [booksApi, setBooksApi] = useState([]);
     useEffect(()=>{
-       fetch("https://sheetlabs.com/MELQ/catalog")
-       .then(response=>response.json())
-       .then(data=>setBooksApi(data))
-    })
+       axios.get("https://sheetlabs.com/MELQ/catalog")
+       .then((response) =>{
+       setBooksApi(response.data)
+       })
+    },[isbn])
 
      
     return (

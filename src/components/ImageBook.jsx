@@ -4,10 +4,12 @@ function ImageBook ({isbn}){
     
     const [imgBook, setImgBook] = useState([]);
     useEffect (()=>{
-        fetch(`https://openlibrary.org/isbn/${isbn}.json`)
-        .then (response=>response.json())
-        .then (data=>setImgBook(data))
+        axios.get(`https://openlibrary.org/isbn/${isbn}.json`)
+        .then ((response) => {
+            setImgBook(response.data)
+        })
     }, [isbn])
+    
     if (typeof imgBook === 'object'){
         if (imgBook.covers === undefined || imgBook.covers === null){
             return(
