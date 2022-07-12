@@ -1,4 +1,4 @@
-# LA CIBA - TU LIBRERIA FEMINISTA
+# LA CIBA - TU LIBRERÍA FEMINISTA
 ![logo-pizzaPlanet](./src/assets/img/logo04.png)
 
 
@@ -73,7 +73,7 @@ Los libros son cargados desde una api externa, donde se muestra información de 
 En la próxima actualización, nuestro objetivo es que tanto los funciones de *Sign In* como el de *Log In* lleven a una página de registro o de inscripción.
 
 Que los iconos de *borrar, editar, crear, "favoritos", y "me gusta"* hagan su función
-Además, de crear una opción de busqueda y de filtrado de libros, poder ver el detalle de cada uno de ellos y crear un entorno responsive. 
+Además, de crear una opción de busqueda y de filtrado de libros, poder ver el detalle de cada uno de ellos,crear una paginación de los libros, y crear un entorno responsive.
 
 
 ***
