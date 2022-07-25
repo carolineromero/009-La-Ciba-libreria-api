@@ -25,14 +25,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-<<<<<<< HEAD
     "eject": "react-scripts eject",
     "crud-axios": "json-server --watch src/assets/data/dataApi.json --port 5000"
    
-=======
-    "eject": "react-scripts eject"
-    
->>>>>>> 7fe26919695ed65f7f62e251ee96490dbde22f20
   },
   "eslintConfig": {
     "extends": [

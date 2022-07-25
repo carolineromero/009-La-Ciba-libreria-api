@@ -9,19 +9,11 @@ function CardsList() {
 
    const [booksApi, setBooksApi] = useState([]);
     useEffect(()=>{
-<<<<<<< HEAD
      serviceAxios.get ().then(data=> setBooksApi(data))
      
         
  
     },[])
-=======
-       axios.get("https://sheetlabs.com/MELQ/catalog")
-       .then((response) =>{
-       setBooksApi(response.data)
-       })
-    },[isbn])
->>>>>>> 7fe26919695ed65f7f62e251ee96490dbde22f20
 
      
     return (
@@ -35,3 +27,10 @@ function CardsList() {
     );
 }
 export default CardsList;
+
+
+
+
+
+
+     
